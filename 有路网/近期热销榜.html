@@ -3,21 +3,22 @@
 <head>
 	<meta charset="utf-8">
 	<title>近期热销榜</title>
+
+	<link href="reset.css" rel="stylesheet">
 	<style type="text/css">
-		body, ul, li, ol, p, dl, dd, h1, h2, h3, h4, h5, h6, img,form{
-    	margin: 0;
-    	padding: 0;
-    	list-style-type: none;
-    	border: 0;
+		a {
+			color: #464646;
+			text-decoration: none;
 		}
-		a { color:#464646; text-decoration:none; outline: none;}
-		a:hover { color:#f60; text-decoration:underline; }
+
+		a:hover {
+			color: #f60;
+			text-decoration: underline;
+		}
 		.bang{
 			float: right;
-    		overflow: hidden;
     		width: 220px;
     		padding-top: 10px;
-    		
 		}
 		.bang .hot_title{
 			height: 38px;
@@ -38,7 +39,6 @@
 		}
 		.bang .lst{
 			padding: 0px 11px;
-    		
     		line-height: 44px;
 		}
 		.bang .lst:hover .lst2{
@@ -49,46 +49,47 @@
 		}
 		.bang .num3{
 			color: #d10000;
+
 		}
+
 		.bang .lst2{
-			
-			height: 94px;
-			position: relative;
+			padding-top: 5px;
+			overflow: hidden;
 			display: none;
 		}
-		.bang .lst1 a{
-			display: block;
-			float: right;
-			width: 175px;
-			height: 44px;
-			overflow: hidden;
+
+		.lst .num3,.num4{
+
+			margin-right: 5px;
+			font-size: 16px;
+			font-weight: bold;
+			float: left;
 		}
-		.bang .div_img{
-			position: absolute;
-			top: 5px;
-    		left: 14px;
+		.lst2 .div_img{
+			float: left;
 		}
+		.lst2 book-info{
+			 float: left;
+		 }
+
 		.bang .div_img img{
-			width: 80px;
+			max-width: 80px;
     		height: 80px;
+			margin-right: 10px;
 		}
 		.bang .title{
-			position: absolute;
-			top: 6px;
-			height: 36px;
-    		width: 100px;
-    		padding-left: 100px;
+			height: 18px;
 			font-size: 13px;
     		line-height: 18px;
-    		overflow: hidden;
+			margin-top: 5px;
+
 		}
 		.bang .price{
-			position: absolute;
-    		left: 110px;
-    		top: 35px;
+
     		line-height: 16px;
     		font-size: 14px;
-    		margin-top: 15px;
+			margin-top: 24px;
+
 		}
 		.bang .price_d{
 			color: #DE0000;
@@ -99,13 +100,8 @@
 			color: #9C9C9C;
 			text-decoration: line-through;
 		}
-		.bang .num3,.num4{
-			font-size: 16px;
-			font-weight: bold;
-		}
-		.bang .num4{
-			color: #464646;
-		}
+
+
 	</style>
 </head>
 <body>
@@ -121,12 +117,15 @@
 						</div>
 						<div class="lst2">
 							<span class="num3">1</span>
-							<div class="div_img"><a href=""><img src="../有路网图片/萤火虫小巷.jpg"></a></div>
-							<p class="title"><a href="">萤火虫小巷</a></p>
-							<p class="price">
-							<span class="price_d">¥14.40</span><br>
-							<span class="price_m">¥36.00</span>
-							</p>
+							<a href="" class="div_img"><img src="../有路网图片/萤火虫小巷.jpg"></a>
+							<div class="book-info">
+								<p class="title"><a href="">萤火虫小巷</a></p>
+								<p class="price">
+									<span class="price_d">¥14.40</span><br>
+									<span class="price_m">¥36.00</span>
+								</p>
+							</div>
+
 						</div>
 					</li>
 					
@@ -137,31 +136,36 @@
 						</div>
 						<div class="lst2">
 							<span class="num3">2</span>
-							<div class="div_img"><a href=""><img src="../有路网图片/蜗牛爱情.jpg"></a></div>
+							<a href="" class="div_img"><img src="../有路网图片/蜗牛爱情.jpg"></a>
+							<div class="book-info">
 							<p class="title"><a href="">如果蜗牛有爱情(上下)</a></p>
 							<p class="price">
 							<span class="price_d">¥25.00</span><br>
 							<span class="price_m">¥49.80</span>
 							</p>
+							</div>
 						</div>
 					</li>
 					
 					<li class="lst">
 						<div class="lst1">
 							<span class="num3">3</span>
-							<a href="">语言学纲要(修订版)（内容一致，印次、封面或原价不同，统一售价，随机发货）</a>
+							<a href="">语言学纲要(修订版)</a>
 						</div>
 						<div class="lst2">
 							<span class="num3">3</span>
-							<div class="div_img"><a href=""><img src="../有路网图片/语言学纲要.jpg"></a></div>
-							<p class="title"><a href="">语言学纲要(修订版)（内容一致，印次、封面或原价不同，统一售价，随机发货）</a></p>
+
+							<a href="" class="div_img"><img src="../有路网图片/语言学纲要.jpg"></a>
+							<div class="book-info">
+							<p class="title"><a href="">语言学纲要(修订版)</a></p>
 							<p class="price">
 							<span class="price_d">¥6.50</span><br>
 							<span class="price_m">¥26.00</span>
 							</p>
+							</div>
 						</div>
 					</li>
-					
+
 					<li class="lst">
 						<div class="lst1">
 							<span class="num4">4</span>
@@ -169,31 +173,36 @@
 						</div>
 						<div class="lst2">
 							<span class="num4">4</span>
-							<div class="div_img"><a href=""><img src="../有路网图片/管理信息.jpg"></a></div>
+
+							<a href="" class="div_img"><img src="../有路网图片/管理信息.jpg"></a>
+							<div class="book-info">
 							<p class="title"><a href="">管理信息系统(第五版)</a></p>
 							<p class="price">
 							<span class="price_d">¥8.00</span><br>
 							<span class="price_m">¥39.80</span>
 							</p>
+							</div>
 						</div>
 					</li>
-					
+
 					<li class="lst">
 						<div class="lst1">
 							<span class="num4">5</span>
-							<a href="">数字信号处理(第三版)（内容一致，印次、封面或原价不同，统一售价，随机发货）</a>
+							<a href="">数字信号处理(第三版)</a>
 						</div>
 						<div class="lst2">
 							<span class="num4">5</span>
-							<div class="div_img"><a href=""><img src="../有路网图片/数字信号.jpg"></a></div>
-							<p class="title"><a href="">数字信号处理(第三版)（内容一致，印次、封面或原价不同，统一售价，随机发货）</a></p>
+							<a href="" class="div_img"><img src="../有路网图片/数字信号.jpg"></a>
+							<div class="book-info">
+							<p class="title"><a href="">数字信号处理(第三版)</a></p>
 							<p class="price">
 							<span class="price_d">¥7.00</span><br>
 							<span class="price_m">¥32.00</span>
 							</p>
+							</div>
 						</div>
 					</li>
-					
+
 					<li class="lst">
 						<div class="lst1">
 							<span class="num4">6</span>
@@ -201,44 +210,50 @@
 						</div>
 						<div class="lst2">
 							<span class="num4">6</span>
-							<div class="div_img"><a href=""><img src="../有路网图片/美国文学.jpg"></a></div>
+							<a href="" class="div_img"><img src="../有路网图片/美国文学.jpg"></a>
+							<div class="book-info">
 							<p class="title"><a href="">美国文学选读(第三版)</a></p>
 							<p class="price">
 							<span class="price_d">¥9.40</span><br>
 							<span class="price_m">¥37.50</span>
 							</p>
+							</div>
 						</div>
 					</li>
-					
+
 					<li class="lst">
 						<div class="lst1">
 							<span class="num4">7</span>
-							<a href="">C程序设计(第四版)（内容一致，印次、封面或原价不同，统一售价，随机发货）</a>
+							<a href="">C程序设计(第四版)</a>
 						</div>
 						<div class="lst2">
 							<span class="num4">7</span>
-							<div class="div_img"><a href=""><img src="../有路网图片/c程序.jpg"></a></div>
-							<p class="title"><a href="">C程序设计(第四版)（内容一致，印次、封面或原价不同，统一售价，随机发货）</a></p>
+							<a href="" class="div_img"><img src="../有路网图片/c程序.jpg"></a>
+							<div class="book-info">
+							<p class="title"><a href="">C程序设计(第四版)</a></p>
 							<p class="price">
 							<span class="price_d">¥6.60</span><br>
 							<span class="price_m">¥29.00</span>
 							</p>
+							</div>
 						</div>
 					</li>
-					
+
 					<li class="lst">
 						<div class="lst1">
 							<span class="num4">8</span>
-							<a href="">高等数学(第六版)(下册)（内容一致，印次、封面或原价不同，统一售价，随机发货）</a>
+							<a href="">高等数学(第六版)(下册)</a>
 						</div>
 						<div class="lst2">
 							<span class="num4">8</span>
-							<div class="div_img"><a href=""><img src="../有路网图片/高数.jpg"></a></div>
-							<p class="title"><a href="">高等数学(第六版)(下册)（内容一致，印次、封面或原价不同，统一售价，随机发货）</a></p>
+							<a href="" class="div_img"><img src="../有路网图片/高数.jpg"></a>
+							<div class="book-info">
+							<p class="title"><a href="">高等数学(第六版)(下册)</a></p>
 							<p class="price">
 							<span class="price_d">¥5.50</span><br>
 							<span class="price_m">¥29.40</span>
 							</p>
+							</div>
 						</div>
 					</li>
 					
@@ -249,12 +264,14 @@
 						</div>
 						<div class="lst2">
 							<span class="num4">9</span>
-							<div class="div_img"><a href=""><img src="../有路网图片/细节决定美丽.jpg"></a></div>
+							<a href="" class="div_img"><img src="../有路网图片/细节决定美丽.jpg"></a>
+							<div class="book-info">
 							<p class="title"><a href="">细节决定美丽</a></p>
 							<p class="price">
 							<span class="price_d">¥11.20</span><br>
 							<span class="price_m">¥28.00</span>
 							</p>
+							</div>
 						</div>
 					</li>
 
@@ -264,13 +281,15 @@
 							<a href="">上班族妈妈</a>
 						</div>
 						<div class="lst2">
-							<span class="num4" style="position:relative;left:-6px;">10</span>
-							<div class="div_img"><a href=""><img src="../有路网图片/上班族.jpg"></a></div>
+							<span class="num4">10</span>
+							<a href="" class="div_img"><img src="../有路网图片/上班族.jpg"></a>
+							<div class="book-info">
 							<p class="title"><a href="">上班族妈妈</a></p>
 							<p class="price">
 							<span class="price_d">¥15.20</span><br>
 							<span class="price_m">¥38.00</span>
 							</p>
+							</div>
 						</div>
 					</li>
 					
