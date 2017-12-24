@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>搜索栏</title>
+    <link href="reset.css" rel="stylesheet">
+    <style type="text/css">
+        a {
+            color: #464646;
+            text-decoration: none;
+
+        }
+
+        a:hover {
+            color: #f60;
+            text-decoration: underline;
+        }
+
+        .searchBar {
+            width: 1200px;
+            margin: 0 auto;
+            padding-top: 40px;
+        }
+
+        .searchFrame {
+            width: 400px;
+            height: 36px;
+            border: 3px solid #de0304;
+            position: relative;
+        }
+
+        .searchFrame input {
+            width: 100%;
+            padding: 9px 0;
+            line-height: 18px;
+            background-color: #fff;
+            border: 0;
+            font-size: 14px;
+        }
+
+        .searchFrame .search-btn {
+            width: 100px;
+            height: 36px;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        .searchFrame .search-btn input {
+            width: 100px;
+            height: 36px;
+            background-color: #de0304;
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+            border: 0;
+            cursor: pointer;
+            text-align: center;
+            letter-spacing: 8px;
+            text-indent: 8px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="searchWrap">
+    <div class="searchBar">
+
+        <div class="searchFrame">
+            <form action="" method="">
+
+                <input type="text" name="bookName" placeholder="书名、作者、出版社、ISBN、文具">
+
+                <div class="search-btn">
+                    <input type="submit" name="keyBtn" value="搜索">
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
