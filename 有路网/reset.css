@@ -15,6 +15,15 @@ a {
 img {
     border: none; /* 在IE6中<a>标签包裹的<img>标签显示时有边框，故清除 */
 }
+a {
+    color: #464646;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f60;
+    text-decoration: underline;
+}
 /*
 *代表所有页面中的标签，也可以如下重置默认样式，但一般不这样做，
 依然一个一个标签重置
