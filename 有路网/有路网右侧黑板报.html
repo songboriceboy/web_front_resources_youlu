@@ -3,25 +3,25 @@
 <head>
 	<meta charset="utf-8">
 	<title>有路网右侧黑板报</title>
+	<link href="reset.css" rel="stylesheet">
 	<style type="text/css">
-		body, ul, li, p,h2, img{
-    	margin: 0;
-    	padding: 0;
-    	list-style-type: none;
-    	border: 0;
+
+		a {
+			color: #464646;
+			text-decoration: none;
+
 		}
-		
-		a { color:#464646; text-decoration:none; outline: none;}
-		a:hover { color:#f60; text-decoration:underline; }
+
+		a:hover {
+			color: #f60;
+			text-decoration: underline;
+		}
 		.hei{
-			float: right;
-    		overflow: hidden;
     		width: 220px;
 		}
-		.hei .book-news {
+		.hei .book-con  {
     		border: 1px solid #eaeaea;
     		padding: 6px 10px;
-    		height: 122px;
 		}
 		.hei .hd {
     		height: 28px;
@@ -29,61 +29,34 @@
     		color: #000;
     		font-weight: bold;
 		}
-		.hei .book-news .bd {
-    		clear: both;
-    		display: block;
-    		overflow: hidden;
-    		position: relative;
+		.hei .hd h2{
+			font-size: 16px;
+		}
+
+		.hei .bd {
     		padding: 0 5px 0 15px;
-    		height: 88px;
-    		font-size: 12px;
 		}
 		
-		.hei .book-news .bd ul li {
+		.hei .bd ul li {
     		height: 22px;
     		line-height: 22px;
-    		position: relative;
-    		overflow: hidden;
-    		padding-left: 7px;
-    		background: url(../有路网图片/point.gif) no-repeat left center;
+      		padding-left: 7px;
 		}
-		
-		.hei .book-directory {
-    		padding: 6px 10px;
-    		border: 1px solid #eaeaea;
-    		border-width: 0 1px 1px 1px;
-    		height: 193px;
-    		margin-bottom: 8px;
-		}
-		.hei .book-directory .bd {
-    		clear: both;
-    		display: block;
-    		overflow: hidden;
-    		position: relative;
-    		padding: 0 5px 0 15px;
-    		height: 164px;
-    		font-size: 12px;
-		}
-		.hei .book-directory .bd ul li {
-    		height: 22px;
-    		line-height: 22px;
-    		position: relative;
-    		overflow: hidden;
-    		padding-left: 7px;
-    		background: url(../有路网图片/point.gif) no-repeat left center;
+		.hei .book-ad-con{
+			margin-top: 10px;
 		}
 	</style>
 </head>
 <body>
 <div class="hei">
-	<div class="book-con book-news">
+	<div class="book-con">
         <div class="hd">
             <h2>黑板报</h2>
         </div>
         <div class="bd">
             <ul>
 				<li>
-					<a href="" target="_blank" title="双十一积分兑好礼，团购更实惠！">双十一积分兑好礼，团购更实惠！</a>
+					<a href="" target="_blank" title="双十一积分兑好礼，团购更实惠！">双十一积分兑好礼</a>
 				</li>
 				<li>
 					<a href="" target="_blank" title="有路网国庆中秋放假通知！">有路网国庆中秋放假通知！</a>
@@ -99,7 +72,7 @@
         </div>
     </div>
 
-    <div class="book-con book-directory">
+    <div class="book-con">
         <div class="hd">
             <h2>购物指南</h2>
         </div>
@@ -130,7 +103,7 @@
         </div>
     </div>
 	
-	<div class="book-ad-con book-ad-second">
+	<div class="book-ad-con">
         <img src="../有路网图片/zhinan.jpg" alt="保证正版、保证低价、24小时发货、无理由退货" " />
     </div>
 
