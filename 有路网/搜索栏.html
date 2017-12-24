@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>搜索栏</title>
+	<style type="text/css">
+		body, ul, li, ol, p, dl, dd, h1, h2, h3, h4, h5, h6, img,form{
+    	margin: 0;
+    	padding: 0;
+    	list-style-type: none;
+    	border: 0;
+		}
+		a { color:#464646; text-decoration:none; outline: none;}
+		a:hover { color:#f60; text-decoration:underline; }
+		.searchBar {
+    		width: 1200px;
+   			margin: 0 auto;
+    		clear: both;
+    		overflow: hidden;
+    		padding-top: 40px;
+		}
+		.searchBar .logo {
+    		float: left;
+    		width: 472px;
+		}
+		.searchBar .search {
+    		float: left;
+    		overflow: hidden;
+		}
+		
+		.search .searchBox .searchFrame {
+    		height: 36px;
+    		border: 3px solid #de0304;
+    		overflow: hidden;
+    		float: left;
+    		position: relative;
+		}
+		.search .searchBox .searchFrame .search-combox {
+    		width: 360px;
+    		padding: 0 105px 0 5px;
+    		background-color: #fff;
+    		overflow: hidden;
+		}
+		.search .searchBox .searchFrame .search-combox input {
+    		width: 100%;
+    		padding: 9px 0;
+    		line-height: 18px;
+    		background-color: #fff;
+    		border: 0;
+    		outline: 0;
+    		font-size: 14px;
+		}
+		.search .searchBox .searchFrame .search-btn {
+    		display: inline;
+    		float: right;
+    		width: 100px;
+    		height: 36px;
+    		overflow: hidden;
+    		position: absolute;
+    		top: 0;
+    		right: 0;
+		}
+		.search .searchBox .searchFrame .search-btn input {
+    		width: 100px;
+    		height: 36px;
+    		background-color: #de0304;
+    		font-size: 18px;
+    		font-weight: 700;
+    		color: #fff;
+    		border: 0;
+    		outline: 0;
+    		cursor: pointer;
+    		text-align: center;
+    		letter-spacing: 8px;
+    		text-indent: 8px;
+		}
+		.search .searchBox label {
+    		position: absolute;
+    		z-index: 2;
+    		top: 10px;
+    		left: 6px;
+    		color: #9e9e9e;
+		}
+		.search .searchBox .search_tip {
+    		float: left;
+    		line-height: 18px;
+    		padding: 3px 5px;
+		}
+		.search .searchBox .search_tip a {
+    		float: left;
+    		width: 30px;
+    		display: block;
+            font-size: 14px;
+		}
+		.search .searchBox .search_tip .pipe {
+    		float: left;
+    		height: 36px;
+    		margin: 0 6px;
+    		font-size: 0;
+    		width: 1px;
+    		background: #ccc;
+		}
+		.search .searchBox .search_hot {
+    		height: 18px;
+    		color: #593b07;
+    		clear: both;
+    		padding-top: 4px;
+    		overflow: hidden;
+		}
+		.search .searchBox .search_hot strong {
+    		float: left;
+    		font-weight: 400;
+            font-size: 14px;
+		}
+		.search .searchBox .search_hot a {
+    		float: left;
+    		margin-right: 10px;
+            font-size: 14px;
+		}
+		.searchBar .bookCart {
+    		background-image: url("../有路网图片/cart.jpg");
+    		background-repeat: no-repeat;
+    		padding: 2px 0 0 48px;
+    		line-height: 18px;
+    		float: right;
+    		overflow: hidden;
+		}
+		.searchBar .bookCart a {
+    		display: block;
+    		height: 18px;
+    		color: #593b07;
+            font-size: 12px;
+		}
+		.searchBar .bookCart .counts {
+    		color: #dd0001;
+    		font-size: 14px;
+    		font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<div class="searchWrap">
+    <div class="searchBar">
+        <h1 class="logo">
+            <a href="">
+                <img src="../有路网图片/logo.jpg" alt="">
+            </a>
+        </h1>
+        <div class="search">
+            <div class="searchBox">
+                <div class="searchFrame">
+                    <form action="" method="">
+                    <div class="search-combox">
+                        <input type="text" name="bookName" id="key" autocomplete="off" class="ac_input">
+                    </div>
+                    <div class="search-btn">
+                        <input type="submit" name="keyBtn" value="搜索">
+                    </div>
+                    <label>
+                        书名、作者、出版社、ISBN、文具</label>
+                    </form>
+                </div>
+                <div class="search_tip">
+                    <a href="" target="_blank">同店找书</a>
+                    <div class="pipe">|</div>
+                    <a href="" target="_blank">高级搜索</a>
+                </div>
+                <div class="search_hot">
+                    <strong>热门搜索：</strong>
+                    <a href="" target="_blank">公务员考试</a>
+					<a href="" target="_blank">四六级</a>
+					<a href="" target="_blank">高等数学</a>
+					<a href="" target="_blank">自考</a>
+                </div>
+            </div>
+        </div>
+        <div class="bookCart">
+            <a href="" target="_blank">网站购物车<span id="wucShoppingCartBookCount" class="counts">0</span>本</a> <a href="" target="_blank">店铺购物车<span id="wucShoppingCartShpBookCount" class="counts">0</span>本</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

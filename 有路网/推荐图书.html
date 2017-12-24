@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>推荐图书</title>
+	<style type="text/css">
+		body, ul, li, ol, p, dl, dd, h1, h2, h3, h4, h5, h6, img,form{
+    	margin: 0;
+    	padding: 0;
+    	list-style-type: none;
+    	border: 0;
+		}
+		a { color:#464646; text-decoration:none; outline: none;}
+		a:hover { color:#f60; text-decoration:underline; }
+		.recommended-book{
+			
+			width: 750px;
+			height: 550px;
+			margin:0px auto;
+			
+		}
+		.recommended-book .hd {
+    		height: 46px;
+    		padding: 10px 10px 0;
+    		line-height: 46px;
+    		border-bottom: 1px solid #dcdcdc;
+		}
+		.recommended-book .hd h3 {
+    		font-size: 20px;
+    		float: left;
+    		background: url(../有路网图片/laba.jpg) no-repeat left center;
+    		padding-left: 20px;
+    		
+    		color: #424242;
+		}
+		.pageState {
+    		float: right;
+    		font-size: 16px;
+    		color: #999;
+		}
+		.pageState span{
+			color: #cd0001;
+    		font-weight: bold;
+		}
+		.tempWrap{
+			width: 730px;
+			height: 550px;
+			margin:0px 10px;
+		}
+		.tempWrap .clone{
+			float: left; 
+			width: 730px;
+			
+		}
+		.tempWrap .clone .book_li{
+			float: left;
+			height: 265px;
+			width: 24.7%;
+			margin:10px 0 0 0;
+			
+		}
+		.tempWrap .pic{
+			
+			height: 160px;
+			width: 180px;
+			text-align: center;
+			vertical-align: middle;
+		}
+		.tempWrap .pic img{
+			max-width: 160px;
+			max-height: 160px;
+		}
+		.tempWrap .title{
+			width: 66%;
+			height: 32px;
+			line-height: 16px;
+			margin:0 auto;
+			font-size: 12px;
+			overflow: hidden;
+			padding: 5px 1px 5px;
+		}
+		.tempWrap .author{
+			width: 66%;
+			line-height: 24px;
+			margin:0 auto;
+			font-size: 12px;
+			color: #999;
+		}
+		.tempWrap .price{
+			width: 66%;
+			margin:0 auto;
+			
+		}
+		.tempWrap .price .price_m{
+			color: #9C9C9C;
+			text-decoration: line-through;
+			font-size: 13px;
+		}
+		.tempWrap .price .price_d{
+			margin-right: 10px;
+			font-weight: bold;
+			color: red;
+			font-size: 15px;
+			font-style: normal;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<div class="recommended-book">
+		<div class="hd">
+			<h3>推荐图书</h3>
+			<span class="pageState">
+				<span>1</span>/4
+			</span>
+		</div>
+		<div class="tempWrap">
+			<ul class="clone">
+				<li class="book_li">
+					<div class="pic">
+						<a href=""><img src="../有路网图片/狼图腾.jpg"></a>
+					</div>
+					<p class="title"><a href="">狼图腾（修订版）</a></p>
+					<p class="author">姜戎</p>
+					<p class="price">
+						<span class="price_d">¥15.90</span>
+						<span class="price_m">¥39.80</span>
+					</p>
+				</li>
+				<li class="book_li">
+					<div class="pic">
+						<a href=""><img src="../有路网图片/文化苦旅.jpg"></a>
+					</div>
+					<p class="title"><a href="">文化苦旅-新版</a></p>
+					<p class="author">余秋雨</p>
+					<p class="price">
+						<span class="price_d">¥15.20</span>
+						<span class="price_m">¥38.00</span>
+					</p>
+				</li>
+				<li class="book_li">
+					<div class="pic">
+						<a href=""><img src="../有路网图片/平凡的世界.jpg"></a>
+					</div>
+					<p class="title"><a href="">平凡的世界(全三册)</a></p>
+					<p class="author">路遥</p>
+					<p class="price">
+						<span class="price_d">¥31.90</span>
+						<span class="price_m">¥79.80</span>
+					</p>
+				</li>
+				<li class="book_li">
+					<div class="pic">
+						<a href=""><img src="../有路网图片/偷影子的人.jpg"></a>
+					</div>
+					<p class="title"><a href="">偷影子的人</a></p>
+					<p class="author">[法]马克.李维</p>
+					<p class="price">
+						<span class="price_d">¥11.90</span>
+						<span class="price_m">¥29.80</span>
+					</p>
+				</li>
+				<li class="book_li">
+					<div class="pic">
+						<a href=""><img src="../有路网图片/摆渡人.jpg"></a>
+					</div>
+					<p class="title"><a href="">摆渡人</a></p>
+					<p class="author">百花洲文艺出版社</p>
+					<p class="price">
+						<span class="price_d">¥14.40</span>
+						<span class="price_m">¥36.00</span>
+					</p>
+				</li>
+				<li class="book_li">
+					<div class="pic">
+						<a href=""><img src="../有路网图片/人类简史.jpg"></a>
+					</div>
+					<p class="title"><a href="">人类简史</a></p>
+					<p class="author">中信出版社</p>
+					<p class="price">
+						<span class="price_d">¥27.20</span>
+						<span class="price_m">¥68.00</span>
+					</p>
+				</li>
+				<li class="book_li">
+					<div class="pic">
+						<a href=""><img src="../有路网图片/蔡永康.jpg"></a>
+					</div>
+					<p class="title"><a href="">蔡永康的说话之道(共2册)</a></p>
+					<p class="author">蔡永康</p>
+					<p class="price">
+						<span class="price_d">¥26.00</span>
+						<span class="price_m">¥65.00</span>
+					</p>
+				</li>
+				<li class="book_li">
+					<div class="pic">
+						<a href=""><img src="../有路网图片/将来的你.jpg"></a>
+					</div>
+					<p class="title"><a href="">将来的你,一定会感激现在拼命的自己</a></p>
+					<p class="author">汤木</p>
+					<p class="price">
+						<span class="price_d">¥12.80</span>
+						<span class="price_m">¥32.00</span>
+					</p>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
