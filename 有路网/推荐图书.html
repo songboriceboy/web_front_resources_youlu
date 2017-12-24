@@ -3,15 +3,19 @@
 <head>
 	<meta charset="utf-8">
 	<title>推荐图书</title>
+	<link href="reset.css" rel="stylesheet">
 	<style type="text/css">
-		body, ul, li, ol, p, dl, dd, h1, h2, h3, h4, h5, h6, img,form{
-    	margin: 0;
-    	padding: 0;
-    	list-style-type: none;
-    	border: 0;
+
+		a {
+			color: #464646;
+			text-decoration: none;
+
 		}
-		a { color:#464646; text-decoration:none; outline: none;}
-		a:hover { color:#f60; text-decoration:underline; }
+
+		a:hover {
+			color: #f60;
+			text-decoration: underline;
+		}
 		.recommended-book{
 			
 			width: 750px;
@@ -25,12 +29,10 @@
     		line-height: 46px;
     		border-bottom: 1px solid #dcdcdc;
 		}
-		.recommended-book .hd h3 {
+		.recommended-book .hd strong {
     		font-size: 20px;
-    		float: left;
     		background: url(../有路网图片/laba.jpg) no-repeat left center;
     		padding-left: 20px;
-    		
     		color: #424242;
 		}
 		.pageState {
@@ -44,53 +46,42 @@
 		}
 		.tempWrap{
 			width: 730px;
-			height: 550px;
 			margin:0px 10px;
 		}
-		.tempWrap .clone{
-			float: left; 
-			width: 730px;
-			
-		}
+
 		.tempWrap .clone .book_li{
 			float: left;
 			height: 265px;
 			width: 24.7%;
 			margin:10px 0 0 0;
-			
+
 		}
 		.tempWrap .pic{
 			
 			height: 160px;
 			width: 180px;
+
 			text-align: center;
-			vertical-align: middle;
 		}
 		.tempWrap .pic img{
 			max-width: 160px;
 			max-height: 160px;
 		}
+		.book_li p{
+			padding-left: 30px;
+		}
 		.tempWrap .title{
-			width: 66%;
 			height: 32px;
-			line-height: 16px;
-			margin:0 auto;
+			line-height: 32px;
 			font-size: 12px;
 			overflow: hidden;
-			padding: 5px 1px 5px;
 		}
 		.tempWrap .author{
-			width: 66%;
 			line-height: 24px;
-			margin:0 auto;
 			font-size: 12px;
 			color: #999;
 		}
-		.tempWrap .price{
-			width: 66%;
-			margin:0 auto;
-			
-		}
+
 		.tempWrap .price .price_m{
 			color: #9C9C9C;
 			text-decoration: line-through;
@@ -109,7 +100,7 @@
 <body>
 	<div class="recommended-book">
 		<div class="hd">
-			<h3>推荐图书</h3>
+			<strong>推荐图书</strong>
 			<span class="pageState">
 				<span>1</span>/4
 			</span>
@@ -197,7 +188,7 @@
 					<div class="pic">
 						<a href=""><img src="../有路网图片/将来的你.jpg"></a>
 					</div>
-					<p class="title"><a href="">将来的你,一定会感激现在拼命的自己</a></p>
+					<p class="title"><a href="">将来的你</a></p>
 					<p class="author">汤木</p>
 					<p class="price">
 						<span class="price_d">¥12.80</span>

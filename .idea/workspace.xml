@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="884c0fe5-6948-4fa9-bca5-e422e149b059" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/有路网/有路网导航栏.html" afterPath="$PROJECT_DIR$/有路网/有路网导航栏.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/有路网/推荐图书.html" afterPath="$PROJECT_DIR$/有路网/推荐图书.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,89 +16,18 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46153846">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="顶部.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/有路网/顶部.html">
+          <file leaf-file-name="推荐图书.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/有路网/推荐图书.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="584">
-                  <caret line="54" column="27" lean-forward="true" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="有路网右侧黑板报.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/有路网/有路网右侧黑板报.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="843">
-                  <caret line="94" column="22" lean-forward="true" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="有路网导航栏.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/有路网/有路网导航栏.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="125">
-                  <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="搜索栏.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/有路网/搜索栏.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="24" column="9" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="24" selection-end-column="9" />
+                <state relative-caret-position="2075">
+                  <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
                   <folding>
-                    <element signature="n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#li#1;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="搜索栏表单部分.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/有路网/搜索栏表单部分.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="86" column="9" lean-forward="true" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="左侧分类.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/有路网/左侧分类.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="125">
-                  <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="44" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="有路网整体布局.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/有路网/有路网整体布局.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="分类.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/有路网/分类.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="125">
-                  <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="44" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -107,14 +36,13 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="搜索栏表单部分.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/有路网/搜索栏表单部分.html">
+          <file leaf-file-name="推荐图书.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/有路网/推荐图书.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="592">
-                  <caret line="109" column="20" lean-forward="true" selection-start-line="109" selection-start-column="20" selection-end-line="109" selection-end-column="20" />
+                <state relative-caret-position="426">
+                  <caret line="190" column="52" lean-forward="false" selection-start-line="190" selection-start-column="52" selection-end-line="190" selection-end-column="52" />
                   <folding>
-                    <element signature="n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#li#1;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -152,6 +80,7 @@
         <option value="$PROJECT_DIR$/有路网/搜索栏.html" />
         <option value="$PROJECT_DIR$/有路网/搜索栏表单部分.html" />
         <option value="$PROJECT_DIR$/有路网/有路网导航栏.html" />
+        <option value="$PROJECT_DIR$/有路网/推荐图书.html" />
       </list>
     </option>
   </component>
@@ -311,18 +240,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514072617434</updated>
-      <workItem from="1514072618645" duration="12262000" />
+      <workItem from="1514072618645" duration="13432000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12262000" />
+    <option name="totallyTimeSpent" value="13432000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13333334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13333334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -364,26 +293,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/有路网/近期热销榜.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/有路网/轮播.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
           <caret line="32" column="24" lean-forward="false" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/有路网/推荐图书.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -448,6 +361,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/有路网/有路网导航栏.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/有路网/近期热销榜.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6075">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/有路网/分类.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -456,11 +385,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/有路网/有路网导航栏.html">
+    <entry file="file://$PROJECT_DIR$/有路网/推荐图书.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-          <folding />
+        <state relative-caret-position="2075">
+          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#1;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
