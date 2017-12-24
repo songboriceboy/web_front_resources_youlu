@@ -1,150 +1,130 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>分类</title>
-	<style type="text/css">
-		body, ul, li, ol, p, dl, dd, h1, h2, h3, h4, h5, h6, img,form{
-    	margin: 0;
-    	padding: 0;
-    	list-style-type: none;
-    	border: 0;
-		}
-		a { color:#464646; text-decoration:none; outline: none;}
-		a:hover { color:#f60; text-decoration:underline; }
-		.nav_bd {
-    		
-    		clear: both;
-    		
-    		background-color: #d80000;
-		}
-		.navBar {
-    		width: 1200px;
-    		margin: 0 auto;
-    		position: relative;
-    		z-index: 6;
-		}
-		.navBar .ylType {
-    		width: 210px;
-    		height: 39px;
-    		line-height: 39px;
-    		position: absolute;
-    		top: 0;
-    		left: 0;
-		}
-		.navBar .ylType .allType {
-    		position: relative;
-    		background-color: #c90000;
-    		width: 210px;
-		}
-		.navBar .ylType .allType h2 {
-    		font-size: 15px;
-    		font-weight: bold;
-		}
-		.navBar .ylType .allType h2 a {
-    		display: block;
-    		color: #fff;
-    		padding-left: 20px;
-		}
-		.navBar .ylType .allType h2 a:hover {
-    		text-decoration: none;
-		}
-		.navBar .nav_c {
-    		height: 39px;
-    		line-height: 39px;
-    		position: relative;
-    		left: 210px;
-    		width: 990px;
-    		clear: both;
-    		top: 0;
-		}
-		
-		.navBar .nav_c_l li.on {
-    		background-color: #c70b0b;
-		}
-		.navBar .nav_c_l li {
-    		float: left;
-		}
-		.navBar .nav_c_l li a {
-    		width: 80px;
-    		text-align: center;
-    		display: block;
-    		color: #fff;
-    		cursor: pointer;
-    		font-size: 15px;
-    		font-weight: 700;
-		}
-		.default-sort {
-    		border: 1px solid #dcdcdc;
-    		border-top: 0;
-    		background-color: #fff;
-    		display: none;
-    		width: 208px;
-    		position: absolute;
-    		zoom: 1;
-    		z-index: 100;
-		}
-		.navBar .nav_c_l li a:hover {
-    		color: #fff;
-    		background-color: #c70b0b;
-    		text-decoration: none;
-		}
-		.wrap_cd {
-    		width: 1200px;
-    		margin: 0 auto;
-    		overflow: hidden;
-    		clear: both;
-    		z-index: 2;
-		}
-		.wrap_cd .helpBar {
-    		height: 30px;
-    		line-height: 30px;
-    		margin-left: 220px;
-    		z-index: 2;
-    		overflow: hidden;
-    		font-size: 12px;
-		}
-		.navBar .ylType .allType h2 a span {
-    		position: absolute;
-    		top: 18px;
-    		right: 40px;
-    		display: block;
-    		border: 8px solid #fff;
-    		border-color: #fff transparent transparent transparent;
-		}
-	</style>
+    <meta charset="utf-8">
+    <title>分类</title>
+    <link href="reset.css" rel="stylesheet">
+    <style type="text/css">
+
+        a {
+            color: #464646;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #f60;
+            text-decoration: underline;
+        }
+
+        .nav_bd {
+            background-color: #d80000;
+        }
+
+        .navBar {
+            width: 1200px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .navBar .ylType {
+            width: 210px;
+            height: 39px;
+            line-height: 39px;
+            float: left;
+            background-color: #c90000;
+            width: 210px;
+        }
+
+        .navBar .ylType  h2 {
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .navBar .ylType  h2 a {
+            color: #fff;
+            padding-left: 20px;
+        }
+
+        .navBar .ylType  h2 a:hover {
+            text-decoration: none;
+        }
+
+        .navBar .nav_c {
+            height: 39px;
+            line-height: 39px;
+            float: right;
+            width: 990px;
+
+        }
+        .navBar .nav_c_l li {
+            float: left;
+        }
+
+        .navBar .nav_c_l li a {
+            width: 80px;
+            text-align: center;
+            display: block;
+            color: #fff;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 700;
+        }
+
+        .navBar .nav_c_l li a:hover {
+            color: #fff;
+            background-color: #c70b0b;
+            text-decoration: none;
+        }
+
+        .wrap_cd {
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        .wrap_cd .helpBar {
+            height: 30px;
+            line-height: 30px;
+            margin-left: 220px;
+        }
+
+
+    </style>
 </head>
 <body>
-	<div class="nav">
-    <div class="nav_bd" style="height: 39px; line-height: 39px; overflow: hidden;">
-        <div class="navBar">
-            <div class="ylType">
-                <div class="allType">
-                    <h2>
-                        <a href="" target="_blank">全部图书分类<span></span></a></h2>
-                </div>
-            </div>
-            <div class="nav_c">
-                <ul class="nav_c_l">
-                    <li class="on"><a href="">首页</a></li>
-					<li><a href="">分类</a></li>
-					<li><a href="">特卖</a></li>
-					<li><a href="">入驻商家</a></li>
-					<li><a href="">文具</a></li>
-					<li><a href="">考试</a></li>
-					<li><a href="" target="_blank">电子书</a></li>
-                </ul>
-            </div>
+
+<div class="nav_bd">
+    <div class="navBar">
+        <div class="ylType">
+                <h2>
+                    <a href="" target="_blank">全部图书分类</a>
+                </h2>
+        </div>
+        <div class="nav_c">
+            <ul class="nav_c_l">
+                <li><a href="">首页</a></li>
+                <li><a href="">分类</a></li>
+                <li><a href="">特卖</a></li>
+                <li><a href="">入驻商家</a></li>
+                <li><a href="">文具</a></li>
+                <li><a href="">考试</a></li>
+                <li><a href="" target="_blank">电子书</a></li>
+            </ul>
         </div>
     </div>
 </div>
-<div class="default-sort" id="cat_menu"></div>
+
 <div class="wrap">
-        <div class="wrap_cd">
-            <div class="helpBar">
-                <a href="" target="_blank">如何购买</a>&nbsp;|&nbsp;<a href="" target="_blank">如何支付</a>&nbsp;|&nbsp;<a href="" target="_blank">旧书缺货怎么办</a>&nbsp;|&nbsp;<a href="" target="_blank">配送方式与配送费</a>&nbsp;|&nbsp;<a href="" target="_blank">普通会员与VIP会员</a>&nbsp;|&nbsp;<a href="" target="_blank">有路积分说明</a>&nbsp;|&nbsp;<a href="" target="_blank">有路礼券说明</a>&nbsp;|&nbsp;<a href="" target="_blank">账户余额说明</a>&nbsp;|&nbsp;<a href="" target="_blank">退款退货说明</a>&nbsp;|&nbsp;<a href="" target="_blank">电子书购买说明</a>
-            </div>
+    <div class="wrap_cd">
+        <div class="helpBar">
+            <a href="" target="_blank">如何购买</a>&nbsp;|&nbsp;<a href="" target="_blank">如何支付</a>&nbsp;|&nbsp;<a href=""
+                                                                                                               target="_blank">旧书缺货怎么办</a>&nbsp;|&nbsp;<a
+                href="" target="_blank">配送方式与配送费</a>&nbsp;|&nbsp;<a href=""
+                                                                    target="_blank">普通会员与VIP会员</a>&nbsp;|&nbsp;<a
+                href="" target="_blank">有路积分说明</a>&nbsp;|&nbsp;<a href="" target="_blank">有路礼券说明</a>&nbsp;|&nbsp;<a
+                href="" target="_blank">账户余额说明</a>&nbsp;|&nbsp;<a href="" target="_blank">退款退货说明</a>&nbsp;|&nbsp;<a
+                href="" target="_blank">电子书购买说明</a>
         </div>
     </div>
+</div>
 </body>
 </html>
