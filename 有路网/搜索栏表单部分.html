@@ -20,8 +20,16 @@
             width: 1200px;
             margin: 0 auto;
             padding-top: 40px;
-        }
 
+        }
+        .searchBar .logo {
+            float: left;
+            width: 472px;
+        }
+        .search{
+            /*float: left;*/
+            margin-left: 472px;
+        }
         .searchFrame {
             width: 500px;
             height: 36px;
@@ -64,13 +72,44 @@
             font-size: 16px;
             padding-top: 4px;
         }
+        .searchBar .bookCart {
+            background: url("../有路网图片/cart.jpg") no-repeat;
+            padding: 2px 0 0 48px;
+            line-height: 18px;
+            float: right;
+
+        }
+        .searchBar .bookCart a {
+            display: block;
+            height: 18px;
+            color: #593b07;
+            font-size: 12px;
+        }
+        .searchBar .bookCart .counts {
+            color: #dd0001;
+            font-size: 14px;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
 <div class="searchWrap">
     <div class="searchBar">
-
-        <div class="searchFrame">
+        <h1 class="logo">
+            <a href="">
+                <img src="../有路网图片/logo.jpg" alt="">
+            </a>
+        </h1>
+        <div class="search">
+            <div class="bookCart">
+                <a href="" target="_blank">网站购物车
+                    <span class="counts">0</span>本
+                </a>
+                <a href="#" target="_blank">店铺购物车
+                    <span class="counts">0</span>本
+                </a>
+            </div>
+            <div class="searchFrame">
             <form action="" method="">
 
                 <input type="text" name="bookName" placeholder="书名、作者、出版社、ISBN、文具">
@@ -81,13 +120,16 @@
 
             </form>
         </div>
-        <div class="search_hot">
+            <div class="search_hot">
             <span>热门搜索：</span>
             <a href="" target="_blank">公务员考试</a>
             <a href="" target="_blank">四六级</a>
             <a href="" target="_blank">高等数学</a>
             <a href="" target="_blank">自考</a>
         </div>
+
+        </div>
+
     </div>
 </div>
 </body>
